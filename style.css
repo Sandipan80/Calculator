@@ -1,0 +1,30 @@
+body{
+    background-color: silver;
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.row button:hover{
+    background: #344c6768;
+    transform: translateY(-10px);
+}
+.row{
+    padding: 8px 0;
+    
+}
+.row input{
+    background-color: gray ;
+    color: antiquewhite;
+    width: 290px;
+    font-size: 20px;
+    padding: 11px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0;
+}
